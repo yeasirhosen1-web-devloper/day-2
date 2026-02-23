@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="./Pic/favicon.ico">
   </head>
 <body>
+  
   <!-- navbar section -->
 <section class="navbar">
   <div class="container">
@@ -17,7 +18,13 @@
       <div class="logo">
         <h2>Yeasir</h2>
       </div>
-      <ul>
+
+      <!-- Hamburger -->
+      <div class="hamburger" onclick="toggleMenu()">
+        ☰
+      </div>
+
+      <ul id="navMenu">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
@@ -26,6 +33,7 @@
     </nav>
   </div>
 </section>
+ 
 <!-- Hero Section -->
 <section class="hero">
   <div class="container hero-wrapper">
@@ -67,23 +75,30 @@ I specialize in building responsive, user-friendly, and performance-driven websi
 
 I am committed to continuous learning and staying up-to-date with the latest industry trends and tools. Whether working independently or collaborating within a team, I bring creativity, problem-solving skills, and a strong sense of responsibility to every project. My goal is to craft digital solutions that are visually appealing, accessible, and impactful.
       </p>
-      <div class="btn-social-section">
+      <div class="cta-section">
+  <div class="cta-buttons">
+    <button class="btn primary">Contact Me</button>
+    <button class="btn secondary">Download CV</button>
+  </div>
 
-        <div class="about-btn btn-social-section ">
-      <button class="btn">Contact Me</button> 
-      <button class="btn">Download CV</button> <br>
-      <div class="social-icon">
-      <a href="https://www.facebook.com/yourprofile"> <i class="fa-brands fa-facebook"></i> </a>
-      <a href="https://twitter.com/yourprofile"> <i class="fa-brands fa-twitter"></i> </a>
-      <a href="https://www.linkedin.com/in/yourprofile"> <i class="fa-brands fa-linkedin"></i> </a>
-      </div>
-    </div>
+  <div class="social-icons">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+  </div>
+</div>
     </div> <br>
     
 
   </div>
 
 </section>
-
+<!-- js -->
+ <script>
+  function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("active");
+  }
+</script>
 </body>
 </html>
