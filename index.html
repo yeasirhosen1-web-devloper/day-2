@@ -24,18 +24,22 @@
         ☰
       </div>
 
-      <ul id="navMenu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+      
+       <ul id="navMenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+</ul>
       </ul>
     </nav>
   </div>
 </section>
  
 <!-- Hero Section -->
-<section class="hero">
+<section class="hero" id="home">
   <div class="container hero-wrapper">
 
     <div class="hero-content">
@@ -57,7 +61,7 @@
  <br>
  <br>
  <br>
-<section class="about">
+<section class="about" id="about">
   <div class="container about-wrapper">
     
     <div class="about-img">
@@ -96,7 +100,7 @@ I am committed to continuous learning and staying up-to-date with the latest ind
 </section>
 
 <!-- Skill section -->
- <section class="services">
+ <section class="services" id="services">
   <div class="container">
     <h2 class="section-title">What I Do</h2>
 
@@ -151,11 +155,201 @@ I am committed to continuous learning and staying up-to-date with the latest ind
     </div>
   </div>
 </section>
+<!-- skill section -->
+ <section class="skills" id="skills">
+  <div class="container">
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>HTML</span>
+        <span>95%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress html"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>CSS</span>
+        <span>90%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress css"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>JavaScript</span>
+        <span>85%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress js"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>React</span>
+        <span>80%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress react"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>Git & GitHub</span>
+        <span>85%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress git"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- project section -->
+ <section class="projects" id="projects">
+  <div class="container">
+    <h2 class="section-title">My Projects</h2>
+
+    <div class="project-wrapper">
+
+      <div class="project-card">
+        <img src="./Pic/Pic-1.png" alt="Project 1">
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>A modern and responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+          <div class="project-buttons">
+            <a href="#" class="btn small">Live Demo</a>
+            <a href="#" class="btn-outline small">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="./Pic/Pic-2.png" alt="Project 2">
+        <div class="project-content">
+          <h3>E-Commerce Landing Page</h3>
+          <p>A responsive product landing page with clean UI and smooth animations.</p>
+          <div class="project-buttons">
+            <a href="#" class="btn small">Live Demo</a>
+            <a href="#" class="btn-outline small">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="./Pic/Pic-3.png" alt="Project 3">
+        <div class="project-content">
+          <h3>Task Management App</h3>
+          <p>A simple task manager application using JavaScript with local storage support.</p>
+          <div class="project-buttons">
+            <a href="#" class="btn small">Live Demo</a>
+            <a href="#" class="btn-outline small">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- contact section -->
+ <section class="contact" id="contact">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+
+    <div class="contact-wrapper">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Let's Work Together</h3>
+        <p>If you have a project in mind or want to collaborate, feel free to contact me.</p>
+
+        <p><strong>Email:</strong> yeasirhosen1@gmail.com</p>
+        <p><strong>Phone:</strong> +8801703-877989</p>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+    </div>
+  </div>
+</section>
+<!-- fotter section -->
+ <footer class="footer">
+  <div class="container">
+
+    <div class="footer-content">
+
+      <!-- Logo / Name -->
+      <div class="footer-brand">
+        <h2>Yeasir</h2>
+        <p>Frontend Developer | Passionate About Clean Design</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="footer-social">
+        <h4>Follow Me</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="footer-bottom">
+      <p>© 2026 Yeasir. All Rights Reserved.</p>
+    </div>
+
+  </div>
+</footer>
+<button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
 <!-- js -->
  <script>
   function toggleMenu() {
     document.getElementById("navMenu").classList.toggle("active");
   }
+  const topBtn = document.getElementById("topBtn");
+
+  window.onscroll = function () {
+    if (document.documentElement.scrollTop > 100) {
+      topBtn.style.display = "block";
+    } else {
+      topBtn.style.display = "none";
+    }
+  };
+
+  topBtn.onclick = function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
 </script>
 </body>
 </html>
